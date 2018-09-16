@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POMABlockchain.Modules.Core\POMABlockchain.Modules.Core.csproj" />
+    <ProjectReference Include="..\POMABlockchain.Modules.NEP6\POMABlockchain.Modules.NEP6.csproj" />
+    <ProjectReference Include="..\POMABlockchain.Modules.NVM\POMABlockchain.Modules.NVM.csproj" />
+    <ProjectReference Include="..\POMABlockchain.Modules.Rest\POMABlockchain.Modules.Rest.csproj" />
+    <ProjectReference Include="..\POMABlockchain.Modules.RPC\POMABlockchain.Modules.RPC.csproj" />
+  </ItemGroup>
+
+</Project>
