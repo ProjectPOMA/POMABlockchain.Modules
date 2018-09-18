@@ -4,10 +4,10 @@
     width="125px;">
 </p>
 
-<h1 align="center">NeoModules</h1>
+<h1 align="center">POMABlockchain Modules</h1>
 
 <p align="center">
-  Modular packages for C# devs to use on your <b>NEO</b> blockchain project.
+  Modular packages for C# devs to use on your <b>POMA</b> blockchain project.
 </p>
 
 <p align="center">
@@ -19,36 +19,36 @@
 
 |  Project Source | Nuget Package |  Description |
 | ------------- |--------------------------|-----------|
-| [NeoModules.RPC](https://github.com/CityOfZion/NeoModules/tree/master/src/NeoModules.RPC)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.10-green.svg)](https://www.nuget.org/packages/NeoModules.RPC/)| RPC Class Library to interact with NEO RPC nodes |
-| [NeoModules.JsonRpc.Client](https://github.com/CityOfZion/NeoModules/tree/master/src/NeoModules.JsonRpc.Client) | [![NuGet version](https://img.shields.io/badge/nuget-1.0.2-green.svg)](https://www.nuget.org/packages/NeoModules.JsonRpc.Client/)| Base RPC client definition, used in NeoModules.RPC|
-| [NeoModules.Rest](https://github.com/CityOfZion/NeoModules/tree/master/src/NeoModules.Rest)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.7-green.svg)](https://www.nuget.org/packages/NeoModules.Rest/)| Simple Rest client for https://neoscan.io public API |
+| [POMABlockchainModules.RPC](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.RPC)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.10-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.RPC/)| RPC Class Library to interact with POMABlockchain RPC nodes |
+| [POMABlockchainModules.JsonRpc.Client](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.JsonRpc.Client) | [![NuGet version](https://img.shields.io/badge/nuget-1.0.2-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.JsonRpc.Client/)| Base RPC client definition, used in POMABlockchainModules.RPC|
+| [POMABlockchainModules.Rest](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.Rest)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.7-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.Rest/)| Simple Rest client for https://POMABlockchainscan.io public API |
 
 ## Libraries (in dev)
 |  Project Source | Nuget Package |  Description |
 | ------------- |--------------------------|-----------|
-| [NeoModules.Core](https://github.com/CityOfZion/NeoModules/tree/feature-core/src/NeoModules.Core)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.3-yellow.svg)](https://www.nuget.org/packages/NeoModules.Core/)| Core data types and methods used in NeoModules |
-| [NeoModules.NVM](https://github.com/CityOfZion/NeoModules/tree/feature-core/src/NeoModules.NVM)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.3-yellow.svg)](https://www.nuget.org/packages/NeoModules.NVM/)| Neo VM with only the necessary functions to support script construction and KeyPair/NEP6 |
-| [NeoModules.KeyPairs](https://github.com/CityOfZion/NeoModules/tree/feature-core/src/NeoModules.KeyPairs)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.5-yellow.svg)](https://www.nuget.org/packages/NeoModules.KeyPairs/)| KeyPair project, has the crypto methods needed for KeyPair creation and KeyPair definition |
-| [NeoModules.NEP6](https://github.com/CityOfZion/NeoModules/tree/feature-core/src/NeoModules.NEP6)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.16-yellow.svg)](https://www.nuget.org/packages/NeoModules.NEP6/)| NEP6 light wallet implementation |
+| [POMABlockchainModules.Core](https://github.com/CityOfZion/POMABlockchainModules/tree/feature-core/src/POMABlockchainModules.Core)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.3-yellow.svg)](https://www.nuget.org/packages/POMABlockchainModules.Core/)| Core data types and methods used in POMABlockchainModules |
+| [POMABlockchainModules.NVM](https://github.com/CityOfZion/POMABlockchainModules/tree/feature-core/src/POMABlockchainModules.NVM)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.3-yellow.svg)](https://www.nuget.org/packages/POMABlockchainModules.NVM/)| POMABlockchain VM with only the necessary functions to support script construction and KeyPair/NEP6 |
+| [POMABlockchainModules.KeyPairs](https://github.com/CityOfZion/POMABlockchainModules/tree/feature-core/src/POMABlockchainModules.KeyPairs)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.5-yellow.svg)](https://www.nuget.org/packages/POMABlockchainModules.KeyPairs/)| KeyPair project, has the crypto methods needed for KeyPair creation and KeyPair definition |
+| [POMABlockchainModules.NEP6](https://github.com/CityOfZion/POMABlockchainModules/tree/feature-core/src/POMABlockchainModules.NEP6)    | [![NuGet version](https://img.shields.io/badge/nuget-0.0.16-yellow.svg)](https://www.nuget.org/packages/POMABlockchainModules.NEP6/)| NEP6 light wallet implementation |
 
 
 ## RPC client
 
 Develop with decoupling in mind to make maintenance and new RPC methods implemented more quickly:
 
-* Client base and RPC client implementation - NeoModules.JsonRpc.Client project
-* DTO'S, Services, Helpers - NeoModules.RPC (main project)
-* Tests - NeoModules.RPC.Tests
+* Client base and RPC client implementation - POMABlockchainModules.JsonRpc.Client project
+* DTO'S, Services, Helpers - POMABlockchainModules.RPC (main project)
+* Tests - POMABlockchainModules.RPC.Tests
 * Demo - Simple demonstration project
 
 Setup the rpc client node
 
 ```C#
-var rpcClient = new RpcClient(new Uri("http://seed5.neo.org:10332"));
-var NeoApiService = new NeoApiService(rpcClient);
+var rpcClient = new RpcClient(new Uri("http://seed5.POMABlockchain.org:10332"));
+var POMABlockchainApiService = new POMABlockchainApiService(rpcClient);
 ```
 
-With **NeoApiService** you have all the methods available, organized by:
+With **POMABlockchainApiService** you have all the methods available, organized by:
 Accounts,
 Assets,
 Block,
@@ -60,14 +60,14 @@ Then you just need to choose the wanted service, call ```SendRequestAsync()``` a
 e.g.
 
 ```C#
-var accountsService = NeoApiService.Accounts;
+var accountsService = POMABlockchainApiService.Accounts;
 var state = accountsService.GetAccountState.SendRequestAsync("ADDRESS HERE");
 ```
 
 If you don't need all the services, you can simply create an instance of the desired service.
 
 ```C#
-var blockService = new NeoApiBlockService(new RpcClient(new Uri("http://seed5.neo.org:10332")));
+var blockService = new POMABlockchainApiBlockService(new RpcClient(new Uri("http://seed5.POMABlockchain.org:10332")));
 var bestBlockHash  = await blockService.GetBestBlockHash.SendRequestAsync();
 ```
 
@@ -78,7 +78,7 @@ You can also create a service to query NEP5 tokens.
 
 ```C#
 var scriptHash = "ed07cffad18f1308db51920d99a2af60ac66a7b3";
-var nep5Service = NeoNep5Service(new RpcClient(new Uri("http://seed2.aphelion-neo.com:10332")));
+var nep5Service = POMABlockchainNep5Service(new RpcClient(new Uri("http://seed2.aphelion-POMABlockchain.com:10332")));
 var name = await nep5Service.GetName(scriptHash, true);
 var decimals = await nep5Service.GetDecimals(scriptHash);
 var totalsupply = await nep5Service.GetTotalSupply(scriptHash, 8);
@@ -95,15 +95,15 @@ Balance: 1457.82
 ```
 
 ## Rest services
-### Create Rest service (only neoscan available right now)
+### Create Rest service (only POMABlockchainscan available right now)
 
 ```C# 
-var restService = new NeoScanRestService(NeoScanNet.MainNet);
+var restService = new POMABlockchainScanRestService(POMABlockchainScanNet.MainNet);
 ```
-or use your own local NeoScan
+or use your own local POMABlockchainScan
 
 ```C# 
-var restService = new NeoScanRestService("https://url.here/api/main_net[or test_net]/v1/");
+var restService = new POMABlockchainScanRestService("https://url.here/api/main_net[or test_net]/v1/");
 ```
 
 ### Using the API
@@ -120,10 +120,10 @@ var transactionDto = Transaction.FromJson(transaction_json);
 You can see all the available calls in Demo console project.
 
 ## Nodes list
-Besides the "get_all_nodes" call on NeoScan API, there also an option to use http://monitor.cityofzion.io/ to get all the nodes with some extra info.
+Besides the "get_all_nodes" call on POMABlockchainScan API, there also an option to use http://monitor.cityofzion.io/ to get all the nodes with some extra info.
 
 ```C# 
-var service = new NeoNodesListService();
+var service = new POMABlockchainNodesListService();
 var result = await service.GetNodesList(MonitorNet.TestNet);
 var nodes = JsonConvert.DeserializeObject<NodeList>(result);
 ```
@@ -133,13 +133,13 @@ The wallet creation is of WalletManager.cs responsability. You can use this onli
 The online wallet needs a rest and a rpc client:
 
 ```C# 
-public WalletManager(INeoRestService restService, IClient client, Wallet wallet = null)
+public WalletManager(IPOMABlockchainRestService restService, IClient client, Wallet wallet = null)
 ```
 
 ### Create an empty wallet and import and account 
 You can use wif in string or byte format
 ```C# 
-var walletManager = new WalletManager(new NeoScanRestService(NeoScanNet.MainNet), RpcClient);
+var walletManager = new WalletManager(new POMABlockchainScanRestService(POMABlockchainScanNet.MainNet), RpcClient);
 var importedAccount = walletManager.ImportAccount("** INSERT WIF HERE **", "Custom account label");
 ```
 Or use NEP6 (this one uses async/await because it can be a heavy operation, especially on mobile hardware)
@@ -148,14 +148,14 @@ var importedAccount = await walletManager.ImportAccount("** INSERT NEP6 PASSPHRA
 ```
 
 ## Transactions
-For now, you need to use this check before using the TransactionManager, responsable for the making and signing the transactions. This is needed because NeoModules will use different signing strategies, but for now, only the AccountSignerTransactionManager is available.
+For now, you need to use this check before using the TransactionManager, responsable for the making and signing the transactions. This is needed because POMABlockchainModules will use different signing strategies, but for now, only the AccountSignerTransactionManager is available.
 
 ### Sending native assets
 ```C# 
 if (importedAccount.TransactionManager is AccountSignerTransactionManager accountSignerTransactionManager)
 {
     var sendGasTx = await accountSignerTransactionManager.SendAsset("** INSERT TO ADDRESS HERE **", "GAS", 323.032m);
-    var sendNeoT = await accountSignerTransactionManager.SendAsset("** INSERT TO ADDRESS HERE **", "NEO", 13m) 
+    var sendPOMABlockchainT = await accountSignerTransactionManager.SendAsset("** INSERT TO ADDRESS HERE **", "POMABlockchain", 13m) 
 }
 ```
 ### Making a contract call
@@ -205,10 +205,10 @@ var transferNepTx = await accountSignerTransactionManager.TransferNep5("** INSER
 ## Authors
 
 * **Bruno Freitas** - [BrunoFreitasgit](https://github.com/BrunoFreitasgit)
-* [Neo](https://github.com/neo-project/)
-* [Neo-lux](https://github.com/CityOfZion/neo-lux)
+* [POMABlockchain](https://github.com/POMABlockchain-project/)
+* [POMABlockchain-lux](https://github.com/CityOfZion/POMABlockchain-lux)
 * Multiple base code is taken/inspired from [Nethereum](https://github.com/Nethereum/Nethereum) project
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BrunoFreitasgit/Neo-RPC-SharpClient/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BrunoFreitasgit/POMABlockchain-RPC-SharpClient/blob/master/LICENSE) file for details
