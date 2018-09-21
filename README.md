@@ -1,6 +1,6 @@
 <p>Builds </p>
 
-https://projectpoma.visualstudio.com/POMABlockchain.Modules/_apis/build/status/POMABlockchain.Modules-ASP.NET%20Core-CI
+<img class="status-badge-image" src="https://projectpoma.visualstudio.com/POMABlockchain.Modules/_apis/build/status/POMABlockchain.Modules-ASP.NET%20Core-CI" alt="status badge">
 
 <hr />
 <p align="center">
