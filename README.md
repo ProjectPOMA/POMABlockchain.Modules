@@ -1,3 +1,8 @@
+<p>Builds </p>
+
+https://projectpoma.visualstudio.com/POMABlockchain.Modules/_apis/build/status/POMABlockchain.Modules-ASP.NET%20Core-CI
+
+<hr />
 <p align="center">
   <img
     src="http://res.cloudinary.com/vidsy/image/upload/v1503160820/CoZ_Icon_DARKBLUE_200x178px_oq0gxm.png"
