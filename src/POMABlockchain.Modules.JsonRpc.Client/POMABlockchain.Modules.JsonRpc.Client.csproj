@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>POMABlockchain.Modules.JsonRpc.Client</AssemblyName>
+    <Authors>Marcos Lobo</Authors>
+    <Company>POMA</Company>
     
     </PropertyGroup>
 
