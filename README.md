@@ -24,7 +24,7 @@
 
 |  Project Source | Nuget Package |  Description |
 | ------------- |--------------------------|-----------|
-| [POMABlockchainModules.RPC](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.RPC)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.10-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.RPC/)| RPC Class Library to interact with POMABlockchain RPC nodes |
+| [POMABlockchainModules.RPC](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.RPC)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.10-green.svg)](https://www.nuget.org/packages/POMABlockchain.Modules.RPC/)| RPC Class Library to interact with POMABlockchain RPC nodes |
 | [POMABlockchainModules.JsonRpc.Client](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.JsonRpc.Client) | [![NuGet version](https://img.shields.io/badge/nuget-1.0.2-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.JsonRpc.Client/)| Base RPC client definition, used in POMABlockchainModules.RPC|
 | [POMABlockchainModules.Rest](https://github.com/CityOfZion/POMABlockchainModules/tree/master/src/POMABlockchainModules.Rest)    | [![NuGet version](https://img.shields.io/badge/nuget-1.0.7-green.svg)](https://www.nuget.org/packages/POMABlockchainModules.Rest/)| Simple Rest client for https://POMABlockchainscan.io public API |
 
